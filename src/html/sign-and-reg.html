@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/style.min.css">    
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <title>Store</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a class="header__logo" href="#"><img src="images/logo.svg" alt="logo"></a>
+                        <a class="header__logomob" href="#"><img src="images/logo-mob.svg" alt="logo"></a>
+                        <form class="header__form">
+                            <div class="header__form-input">
+                                <input class="header__input" type="text">
+                                <a class="header__searchmob" href="#"><img src="images/icons/search-mob.svg" alt="search"></a>
+                            </div>
+                            <label class="header__location">Вся Россия</label>
+                            <label class="header__money" data-da=".menu__item--2, 991, 1">Валюта:</label>
+                            <select class="header__select" data-da=".menu__item--3, 991, 1">
+                                <option class="header__option" value="1">USD</option>
+                                <option class="header__option" value="2">RUB</option>
+                                <option class="header__option" value="3">UAH</option>
+                            </select>
+                            <div class="header__lang" data-da=".menu__item--1, 991, 1">
+                                <p class="header__lang-text active">RU</p><span></span>
+                                <p class="header__lang-text">UK</p>
+                            </div>
+                        </form>
+                        <a class="header__btn" href="#" data-da=".menu__item--4, 550, 1">Вход</a>
+                        <a class="header__loginmob" href="#"><img src="images/icons/user-mob.svg" alt="user"></a>
+                        <div class="menu">
+                            <div class="menu__header">
+                                <div class="menu__icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <nav class="menu__body">
+                                    <ul class="menu__list">
+                                        <li class="menu__item menu__item--1"></li>
+                                        <li class="menu__item menu__item--2"></li>
+                                        <li class="menu__item menu__item--3"></li>
+                                        <li class="menu__item menu__item--4"></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main">
+
+                <div class="breadcrumbs">
+                    <div class="container">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__list-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumbs__list-item"><span>Регистация</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sign">
+                    <div class="container">
+                        <div class="sign__inner">
+                            <div class="sign__reg">
+                                <div class="tabs-wrapper">
+                                    <div class="sign__tabs tabs">
+                                        <a class="sign__tab tab tab--active" href="#10">Регистрация</a>
+                                        <span></span>
+                                        <a class="sign__tab tab" href="#11">Вход</a>
+                                    </div>
+                                </div>
+                                <div class="tabs-container">
+                                    <div class="sign__tabs-content tabs-content tabs-content--active" id="10">
+                                        <form class="sign__form">
+                                            <div class="sign__input-box user">
+                                                <input class="sign__form-input" type="text" placeholder="Имя">
+                                            </div>
+                                            <div class="sign__input-box email">
+                                                <input class="sign__form-input" type="email" placeholder="Email">
+                                            </div>
+                                            <div class="sign__input-box smile">
+                                                <select class="sign__form-select">
+                                                    <option value="12">Выберете роль</option>
+                                                    <option value="13">Выберете роль</option>
+                                                    <option value="14">Выберете роль</option>
+                                                </select>
+                                            </div>
+                                            <div class="sign__input-box key">
+                                                <input class="sign__form-input" type="password" placeholder="Введите пароль">
+                                                <button class="sign__form-image">
+                                                    <img src="@images/icons/eye-close-up.svg" alt="eye-close-up">
+                                                </button>
+                                            </div>
+                                            <div class="sign__form-text">6–20 символов, Aa–Zz, 0-9</div>
+                                            <div class="sign__input-box key">
+                                                <input class="sign__form-input" type="password" placeholder="Повторите пароль">
+                                                <button class="sign__form-image">
+                                                    <img src="@images/icons/eye-close-up.svg" alt="eye-close-up">
+                                                </button>
+                                            </div>
+                                            <div class="sign__form-copy">Согласие пользователя на предоставление <span>персональных данных</span> (персональной информации), данное им в соответствии с настоящей <span>Политикой</span> в рамках отношений с одним из лиц, входящих в группу лиц ООО «...», распространяется на все лица, входящие в данную группу лиц.</div>
+                                            <button class="sign__form-btn" type="submit">Зарегистрироваться</button>
+                                        </form>
+                                    </div>
+                                    <div class="sign__tabs-content tabs-content" id="11">
+                                        <form class="sign__form">
+                                            <div class="sign__input-box user">
+                                                <input class="sign__form-input" type="text" placeholder="Имя">
+                                            </div>
+                                            <div class="sign__input-box email">
+                                                <input class="sign__form-input" type="email" placeholder="Email">
+                                            </div>
+                                            <div class="sign__input-box key">
+                                                <input class="sign__form-input" type="password" placeholder="Введите пароль">
+                                                <button class="sign__form-image">
+                                                    <img src="@images/icons/eye-close-up.svg" alt="eye-close-up">
+                                                </button>
+                                            </div>
+                                            <a href="#" class="sign__form-text">Забыли пароль?</a>
+                                            <div class="sign__form-copy">Согласие пользователя на предоставление <span>персональных данных</span> (персональной информации), данное им в соответствии с настоящей <span>Политикой</span> в рамках отношений с одним из лиц, входящих в группу лиц ООО «...», распространяется на все лица, входящие в данную группу лиц.</div>
+                                            <button class="sign__form-btn" type="submit">Зарегистрироваться</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sign__social">
+                                <div class="sign__social-text">Быстрая регистрация с помощью</div>
+                                <ul class="sign__social-list">
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/vk.svg" alt="vk"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/facebook.svg" alt="facebook"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/odnoklassniki.svg" alt="odnoklassniki"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/google.svg" alt="google"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/pinterest.svg" alt="pinterest"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/instagram.svg" alt="instagram"></a>
+                                    </li>
+                                    <li class="sign__social-item">
+                                        <a href="#"><img src="@images/icons/twitter.svg" alt="twitter"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            
+            @@include('html/footer.html', {})
+        </div>
+        <script src="js/app.min.js"></script>
+    </body>
+</html>
